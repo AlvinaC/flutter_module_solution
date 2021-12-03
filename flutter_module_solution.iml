@@ -9,6 +9,18 @@
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_module_a/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_module_a/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_module_a/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_module_a/flutter_module_b/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_module_a/flutter_module_b/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_module_a/flutter_module_b/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_module_c/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_module_c/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_module_c/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_module_c/flutter_module_b/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_module_c/flutter_module_b/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_module_c/flutter_module_b/build" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />

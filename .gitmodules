@@ -1,0 +1,6 @@
+[submodule "flutter_module_a"]
+	path = flutter_module_a
+	url = https://github.com/AlvinaC/flutter_module_a.git
+[submodule "flutter_module_c"]
+	path = flutter_module_c
+	url = https://github.com/AlvinaC/flutter_module_c.git

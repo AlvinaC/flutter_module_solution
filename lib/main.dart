@@ -1,6 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_module_c/main.dart';
+import 'package:flutter_module_a/src/app.dart';
 
 void main() => runApp(const MyApp());
+
+@pragma('vm:entry-point')
+void toModuleA() => runApp(const Bookstore());
+
+@pragma('vm:entry-point')
+void toModuleC() => runApp(const MyModuleCApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -58,6 +66,16 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+  void _moveToModuleA() {
+    Navigator.of(context)
+        .push(MaterialPageRoute(builder: (context) => const Bookstore()));
+  }
+
+  void _moveToModuleC() {
+    Navigator.of(context)
+        .push(MaterialPageRoute(builder: (context) => const MyModuleCApp()));
+  }
+
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -99,6 +117,10 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            ElevatedButton(
+                onPressed: _moveToModuleA, child: Text("To Module A")),
+            ElevatedButton(
+                onPressed: _moveToModuleC, child: Text("To Module C")),
           ],
         ),
       ),
