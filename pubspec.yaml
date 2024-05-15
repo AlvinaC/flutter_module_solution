@@ -30,7 +30,7 @@ dependencies:
 #  flutter_module_a:
 #          path: ./flutter_module_a
   flutter_module_c:
-          path: ./flutter_module_c
+    path: ./flutter_module_c
 
 dependency_overrides:
   flutter_module_b:
